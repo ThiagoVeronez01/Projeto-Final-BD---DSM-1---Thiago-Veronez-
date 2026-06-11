@@ -578,3 +578,11 @@ INSERT INTO consecionaria.venda (data_venda, valor_venda, cpf_clientes, cpf_vend
   ('2024-12-29', 300267.5, '015.105.195-45', '100.700.301-03', 'ESH47V56487'),
   ('2020-05-17', 140395.67, '046.322.598-39', '061.427.793-84', 'LLC40V13875');
   ```
+6 - CRUD
+
+  6.1 - Create
+
+<img width="752" height="197" alt="image" src="https://github.com/user-attachments/assets/d2ad38c4-066b-47fc-a3d4-c5bb95cf2696" />
+
+  6.2 - Read
+

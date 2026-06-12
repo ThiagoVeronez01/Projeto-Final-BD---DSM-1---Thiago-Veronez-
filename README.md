@@ -181,10 +181,11 @@ SELECT v.id_venda, c.nome_cliente, vd.nome_vendedor, v.data_venda, v.valor_venda
 FROM consecionaria.venda v
 JOIN consecionaria.clientes c ON v.cpf_clientes = c.cpf_clientes
 JOIN consecionaria.vendedor vd ON v.cpf_vendedor = vd.cpf_vendedor
+WHERE v.valor_venda > 0
 ORDER BY v.data_venda DESC;
 ```
 
-<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/fb7be485-9247-4fc2-82bd-543ebdbe7092" />
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/82456e0c-1286-4390-9565-4750fd6f1c51" />
 
 
 6.2

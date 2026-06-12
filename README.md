@@ -613,3 +613,26 @@ where tipo_seguro = 'Seguro Básico';
 
 <img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/10425519-d0fb-4b49-90a4-d16c32b3b8bf" />
 
+6.3 - Update
+
+
+```sql
+update consecionaria.seguro
+set tipo_seguro = 'Seguro Total',
+    valor_seguro = 6500
+where id_seguro = 34;
+```
+
+```sql
+update consecionaria.venda
+set valor_venda = 220000,
+    data_venda = '2026-06-10'
+where id_venda = 49;
+```
+
+<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/c7613f2a-7b0f-4471-abfd-73366c57dc48" />
+
+
+
+
+

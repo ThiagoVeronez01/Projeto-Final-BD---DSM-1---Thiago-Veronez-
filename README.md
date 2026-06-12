@@ -581,8 +581,20 @@ INSERT INTO consecionaria.venda (data_venda, valor_venda, cpf_clientes, cpf_vend
 6 - CRUD
 
   6.1 - Create
+```sql
+insert into consecionaria.clientes (cpf_clientes, nome_cliente, cep, rua, numero_casa) values 
+  ('073.481.295-17','Thiago Veronez','14404-091','Cyro Eduardo Rosa Faleiros',6767),
+  ('047.846.525-34','Douglas Brito','14405-670','Rua Amapá',6908),
+  ('233.822.218-45','Márcio Maestrelo','14450-080','Av. São Antônio',962);
 
-<img width="752" height="197" alt="image" src="https://github.com/user-attachments/assets/d2ad38c4-066b-47fc-a3d4-c5bb95cf2696" />
+insert into consecionaria.venda (data_venda, valor_venda, cpf_clientes, cpf_vendedor, chassi) values
+  ('2026-06-11', 23000.00, '047.846.525-34', '051.357.663-54', 'GRS25V43512'),
+  ('2026-06-10', 87500.00, '073.481.295-17', '052.364.676-57', 'WSY27V00000'),
+  ('2026-06-09', 145000.00, '233.822.218-45', '053.371.689-60', 'WJK28V73248');
+```
+
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/a0fc1e32-e042-46f1-8c69-87b33905a6e4" />
+
 
   6.2 - Read
 

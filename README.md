@@ -598,3 +598,18 @@ insert into consecionaria.venda (data_venda, valor_venda, cpf_clientes, cpf_vend
 
   6.2 - Read
 
+  
+``` sql
+select * from consecionaria.venda
+where valor_venda between 50000 and 120000;
+```
+
+<img width="1919" height="953" alt="image" src="https://github.com/user-attachments/assets/29431a19-132b-4edd-a102-cf6695f4f4a6" />
+
+```sql
+select * from consecionaria.seguro 
+where tipo_seguro = 'Seguro Básico';
+```
+
+<img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/10425519-d0fb-4b49-90a4-d16c32b3b8bf" />
+

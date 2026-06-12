@@ -111,7 +111,7 @@ CREATE TABLE consecionaria.venda (
 -- =============================================
 -- CLIENTES
 -- =============================================
-INSERT INTO consecionaria.clientes (cpf_clientes, nome_clientes, cep, rua, numero_casa) VALUES
+INSERT INTO consecionaria.clientes (cpf_clientes, nome_cliente, cep, rua, numero_casa) VALUES
   ('001.007.013-03', 'Carlos Eduardo Mendes', '14406-600', 'Rua XV de Novembro', 205),
   ('002.014.026-06', 'Fernanda Lima Costa', '14409-900', 'Rua São João', 236),
   ('003.021.039-09', 'Ricardo Souza Alves', '14403-300', 'Rua São João', 779),

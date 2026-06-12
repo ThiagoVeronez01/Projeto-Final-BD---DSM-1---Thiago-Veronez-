@@ -633,6 +633,19 @@ where id_venda = 49;
 <img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/c7613f2a-7b0f-4471-abfd-73366c57dc48" />
 
 
+6.4 - Delete
+
+```sql
+DELETE FROM consecionaria.venda
+WHERE cpf_clientes = '073.481.295-17';
+
+DELETE FROM consecionaria.clientes
+WHERE nome_cliente = 'Thiago Veronez';
+```
+
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/3a1781f2-44ea-478b-b331-95ad41ed49c2" />
+
+7 - Relatórios
 
 
 
